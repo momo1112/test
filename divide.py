@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import time
 
 
+
+
 def get_median(p):
     p.sort(key=lambda a: a[0])
     half = int(len(p)/2)
